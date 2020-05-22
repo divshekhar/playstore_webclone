@@ -1,0 +1,271 @@
+/* Upper Section */
+#upper {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#app-title {
+  font-weight: bold;
+}
+
+#app-type {
+  color: green;
+}
+
+#ads {
+  color: #737373;
+  font-weight: bold;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.info-icon {
+  color: #b2cb39;
+}
+
+#info-device {
+  color: #939393;
+}
+
+
+@media (min-width: 768px) {
+  .app-logo {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+/* App Info Section */
+#app-info {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.info-section {
+  text-align: center;
+}
+
+.br-right {
+  border-right: 2px solid rgba(191, 184, 184, 0.796);
+}
+
+/* Download Button */
+.download-btn {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .download-btn {
+    width: 80%;
+  }
+}
+
+/* Screenshot Section */
+#screenshot {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .item {
+    height: 400px;
+  }
+}
+
+/* Steps Section */
+
+#steps {
+  padding: 20px;
+}
+
+.step-img {
+  width: 400px;
+}
+
+.img-br {
+  border: 5px solid rgb(81, 204, 81);
+}
+
+.step-num {
+  color: rgb(81, 204, 81);
+  font-size: 30px;
+}
+
+.step-title {
+  justify-content: center;
+  margin: auto;
+}
+
+/* About Section */
+
+#about {
+  padding: 20px;
+}
+
+#abt-text {
+  font-size: 20px;
+}
+
+/* How to Play Section */
+#how-to-play {
+  padding: 20px;
+}
+
+.play-steps {
+  font-size: 20px;
+}
+
+.step-icon {
+  font-size: 50px;
+}
+
+.fa-user-circle-o {
+  color: green;
+}
+
+.fa-mobile {
+  color: blue;
+}
+
+.fa-trophy {
+  color: rgb(84, 84, 6);
+}
+
+/* Review Section */
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:hover {
+  color: #455a64;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #fff;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.rating-box {
+  width: 130px;
+  height: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+}
+
+.rating-label {
+  font-weight: bold;
+}
+
+.rating-bar {
+  width: 300px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.bar-5 {
+  width: 90%;
+  height: 13px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.bar-4 {
+  width: 50%;
+  height: 13px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.bar-3 {
+  width: 30%;
+  height: 13px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.bar-2 {
+  width: 20%;
+  height: 13px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.bar-1 {
+  width: 10%;
+  height: 13px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+td {
+  padding-bottom: 10px;
+}
+
+.star-active {
+  color: green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.star-active:hover {
+  color: #f9a825;
+  cursor: pointer;
+}
+
+.star-inactive {
+  color: #cfd8dc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.blue-text {
+  color: #0091ea;
+}
+
+.content {
+  font-size: 18px;
+}
+
+.profile-pic {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+
+/* Play-logo */
+.play-logo {
+  width: 90%;
+  height: 90%;
+}
+
+@media (min-width: 768px) {
+  .play-logo {
+    width: 50%;
+    height: 50%;
+  }
+}
